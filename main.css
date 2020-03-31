@@ -1,72 +1,131 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .hd {
-  display: block;
+    display: block;
 }
 
 #hdLine1 {
-  background-color: #131313;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  border: 1px solid red;
+    background-color: #131313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#hdLine2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid red;
+    align-items: center;
 }
 
 .hdLine1-left {
-  display: flex;
-  flex-direction: row;
-  justify-self: flex-start;
-  list-style: none;
-  padding-left: 10px;
-  background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    list-style: none;
+    padding: 5px 10px;
+    background-color: inherit;
 }
 
 .hdLine1-left li {
-  padding: 0 5px;
+    padding: 0 5px;
 }
 
 .hdLine1-left li a,
 .hdLine1-right li a {
-  text-decoration: none;
-  color: rgb(173, 170, 170);
+    text-decoration: none;
+    color: rgb(173, 170, 170);
 }
 
 .hdLine1-left li a:hover,
 .hdLine1-right li a:hover,
 .business_opt li a:hover {
-  /* text-decoration: none; */
-  color: white;
+    /* text-decoration: none; */
+    color: white;
 }
 
 .hdLine1-right li {
-  padding: 0 5px;
+    padding: 0 5px;
 }
 
 .hdLine1-right:last-child {
-  padding-right: 10px;
+    padding-right: 10px;
+}
+
+.hdLine2-left {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.hdLine2-left li {
+    padding: 0 5px;
+}
+
+.hdLine2-left li a,
+.hdLine2-right li a {
+    text-decoration: none;
+    color: rgb(143, 142, 142);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    font-weight: 800;
+}
+
+.hdLine2-left li a:hover,
+.hdLine2-right li a:hover {
+    /* text-decoration: none; */
+    color: rgb(8, 8, 8);
+}
+
+.hdLine1-right li {
+    padding: 0 5px;
+}
+
+.hdLine1-right:last-child {
+    padding-right: 10px;
+}
+
+.hdLine2-left {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.hdLine2-left li {
+    padding: 0 5px;
 }
 
 .business_opt {
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 .business_li {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .business_li .business_opt {
-  visibility: hidden;
-  width: 200px;
-  position: absolute;
-  z-index: 1;
-  top: 20px;
-  background-color: #000;
+    visibility: hidden;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    background-color: #000;
 }
+
 
 /* .business_li .business_opt::after {
   content: "";
@@ -80,24 +139,50 @@
 } */
 
 .business_li:hover .business_opt {
-  visibility: visible;
+    visibility: visible;
 }
 
 .business_opt li a {
-  text-decoration: none;
-  color: rgb(173, 170, 170);
-  background-color: inherit;
-  margin: 100px 15px;
+    text-decoration: none;
+    color: rgb(173, 170, 170);
+    background-color: inherit;
+    margin: 100px 15px;
 }
 
 .business_opt li {
-  margin: 10px 10px;
+    margin: 10px 10px;
 }
 
 .hdLine1-right {
-  display: flex;
-  flex-direction: row;
-  justify-self: flex-end;
-  list-style: none;
-  background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    list-style: none;
+    background-color: inherit;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.hdLine2-right {
+    justify-self: flex-end;
+    list-style: none;
+    background-color: inherit;
+    padding: 10px 10px;
+    align-items: center;
+    border-left: 1px solid rgb(44, 43, 43);
+    align-self: stretch;
+}
+
+.hdLine2-right a {
+    transform: rotate(90deg);
+}
+
+search .bckg {
+    background-color: white;
+    color: black;
+}
+
+.bckg a {
+    text-decoration: none;
+    color: black;
 }
