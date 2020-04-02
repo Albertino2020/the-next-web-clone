@@ -608,3 +608,113 @@
         font-size: 0.85em;
     }
     /* END OF THE LATESTE FUNDING SECIION */
+
+    /* start of More info section */
+
+.moreInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 60%;
+    min-width: 900px;
+    margin: 20px auto;
+    grid-gap: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column; 
+    /* border: 1px solid red; */
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .imageInfo {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0), black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/dimitri-karastelev-0hO1QgI1H8g-unsplash-368x276.jpg);
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(); */
+    background-size: 100% 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0), black); */
+  }
+  
+  .popular {
+    margin: 10px;
+    
+  }
+  
+  .popular span,
+  .popular a,
+  .popular h6 {
+    color: white;
+  }
+  
+  .popular h6 {
+    font-size: 10px;
+  }
+  
+  .popular a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .popular a:hover {
+    text-decoration: underline;
+  }
+  
+  .popular span {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .latestInfo {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid greenyellow; */
+    background-color: #FFF4F2;
+  }
+  
+  .latestInfo img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .latestInfoSec h3 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .latestInfoSec span,
+  .latestInfoSec h3 {
+    color: red;
+  }
+  
+  .latestInfoSec {
+    margin: 10px 20px 20px 10px;
+    /* border: 1px solid red; */
+  }
+  
+  .infoListed {
+    padding-left: 15px;
+  }
+  
+  .infoListed li{
+    padding: 5px 0;
+    border-bottom: 1px solid grey;
+  }
+  
+  .infoListed li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .infoListed li a:hover {
+    color: black
+  }
+  
+  /* more info section ends here */
