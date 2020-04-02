@@ -718,3 +718,55 @@
   }
   
   /* more info section ends here */
+
+  /* latest deal section */
+
+.latestnewsHd1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+  }
+  
+  .latestNews .latestnewsHd1 {
+    grid-column: span 4;
+    align-items: center;
+  }
+  
+  .latestnewsHd1 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .latestnewsHd1 a p:hover,
+  .latestnewsHd1 a img:hover {
+    color: #000;
+  }
+  
+  .latestnewsHd1 a p {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   color: red;
+   font-weight: bold;
+  } 
+  
+  .latestnewsHd1 a img {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .latestnewsHd1 span a{
+    justify-self: flex-end;
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+  }
+  
+  .latestnewsHd1 span a:hover {
+    color: #000;
+  }
+  
+  /* Latest deal section ends */
