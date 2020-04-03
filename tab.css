@@ -68,6 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
+    align-items: center;
     list-style: none;
     padding: 0;
     background-color: inherit;
@@ -78,7 +79,9 @@ body {
 }
 
 .hdLine1-left li {
-    padding: 0 5px;
+    padding: 10px 0;
+    font-size: 0.7em;
+    font-weight: bolder;
 }
 
 .hdLine1-left li a {
