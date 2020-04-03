@@ -397,7 +397,7 @@ border-color: transparent black transparent transparent;
 
 /* .allDeals {
 text-align: center;
-font-size: 15px;
+font-size: 15px;box
 } */
 
 .news {
@@ -617,14 +617,31 @@ font-size: 15px;
     z-index: -2;
 }
 
-.box a {
+.md-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 2px solid #FEC6BD;
+}
+
+.md-line span i {
+    color: black;
+}
+
+.baseline {
+    background-color: #FFFAF8;
+}
+
+.box .md-line span,
+.box .baseline {
     color: grey;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.85em;
 }
 
-.box a:hover {
+.box .md-line span:hover,
+.box .baseline:hover {
     color: black;
     text-decoration: underline;
 }
@@ -939,21 +956,6 @@ font-size: 15px;
     flex-direction: row;
     place-items: center;
     justify-content: center;
-}
-
-.md-line {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-bottom: 2px solid #FEC6BD;
-}
-
-.md-line span i {
-    color: black;
-}
-
-.baseline {
-    background-color: #FFFAF8;
 }
 
 .blank {
