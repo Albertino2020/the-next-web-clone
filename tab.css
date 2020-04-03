@@ -1079,8 +1079,9 @@ font-size: 15px;
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 100px;
+    width: 80px;
     height: 78px;
+    margin-left: 10px;
 }
 
 .business_li {
