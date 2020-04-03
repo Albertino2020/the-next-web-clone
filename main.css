@@ -955,3 +955,7 @@ font-size: 15px;
 .baseline {
     background-color: #FFFAF8;
 }
+
+.blank {
+    display: none;
+}
