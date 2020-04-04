@@ -60,6 +60,10 @@ body {
 
 /* } */
 
+.mob_menu {
+    display: none;
+}
+
 .hdLine1-left:hover {
     position: fixed;
     top: 0;
@@ -898,7 +902,7 @@ font-size: 15px;
 
 .infoListed li a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
 }
 
