@@ -618,7 +618,7 @@ font-size: 15px;box
     display: grid;
     width: 100%;
     grid-template-rows: 1fr 1fr 1fr;
-    z-index: -2;
+    z-index: -1;
 }
 
 .md-line {
@@ -642,6 +642,7 @@ font-size: 15px;box
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.85em;
+    margin-left: 10px;
 }
 
 .box .md-line span:hover,
