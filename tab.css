@@ -483,7 +483,7 @@ border-color: transparent black transparent transparent;
     margin-bottom: 40px;
 }
 
-.txt-wrap #h2 {
+.txt-wrap .h2 {
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 180%;
@@ -492,7 +492,7 @@ border-color: transparent black transparent transparent;
     text-decoration: none;
 }
 
-.aside #h2 {
+.aside .h2 {
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100%;
@@ -514,7 +514,7 @@ border-color: transparent black transparent transparent;
     text-decoration: none;
 }
 
-#insights {
+.insights {
     text-transform: uppercase;
 }
 
@@ -805,7 +805,6 @@ font-size: 15px;
     display: grid;
     width: 100%;
     grid-template-rows: 1fr 1fr 1fr;
-    z-index: -2;
 }
 
 .box a {
@@ -823,6 +822,7 @@ font-size: 15px;
 .top-box {
     display: flex;
     flex-direction: row;
+    z-index: -1;
 }
 
 .top-box img {
