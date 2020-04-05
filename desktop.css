@@ -130,7 +130,7 @@ body {
 .hdLine1-right li a:hover,
 .business_opt li a:hover {
   color: white;
-} 
+}
 
 .hdLine2-left {
   display: flex;
@@ -138,16 +138,16 @@ body {
   justify-self: flex-start;
   list-style: none;
   padding: 15px 10px;
-} 
+}
 
 .mob_menu {
   display: none;
-} 
+}
 
 .business_li {
   position: relative;
   display: inline-block;
-} 
+}
 
 .hdLine2-right {
   justify-self: flex-end;
@@ -157,12 +157,12 @@ body {
   align-items: center;
   border-left: 1px solid rgb(44, 43, 43);
   align-self: stretch;
-} 
+}
 
 .bckg {
   background-color: white;
   color: black;
-} 
+}
 
 #hdLine3 {
   display: flex;
@@ -172,12 +172,12 @@ body {
   width: 100%;
   height: 40px;
   background: #fede58;
-} 
+}
 
 .popular span {
   font-size: 10px;
   color: gray;
-} 
+}
 
 .md-line span,
 .baseline {
@@ -186,7 +186,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.85em;
   padding-left: 10px;
-} 
+}
 
 .footer-bottom span {
   display: flex;
@@ -196,27 +196,27 @@ body {
   text-decoration: none;
   color: white;
   align-self: center;
-} 
+}
 
 .news h3,
 .news span {
   margin: 5px 0;
-} 
+}
 
 .baseline {
   background-color: #fffaf8;
-} 
+}
 
 .md-line span:hover,
 .baseline:hover {
   color: black;
   text-decoration: underline;
-} 
+}
 
 .news h3 a:hover {
   color: red;
   text-decoration: underline;
-} 
+}
 
 #hdLine3 a {
   text-decoration: none;
@@ -225,11 +225,11 @@ body {
   font-size: 1em;
   font-weight: 1000px;
   align-content: center;
-} 
+}
 
 #hdLine3 a span {
   padding: 10px 5px;
-} 
+}
 
 .bellow-head {
   display: grid;
@@ -241,7 +241,7 @@ body {
   margin: 0 1% 0 1%;
   min-width: 1000px;
   margin-top: 100px;
-} 
+}
 
 .videobox {
   display: flex;
@@ -253,7 +253,7 @@ body {
   background-repeat: no-repeat;
   opacity: 100%;
   background-size: 100% 100%;
-} 
+}
 
 .img-wrap {
   display: flex;
@@ -261,24 +261,24 @@ body {
   justify-content: space-between;
   width: 100%;
   height: 50%;
-} 
+}
 
 .latestInfo img {
   width: 80px;
   height: auto;
-} 
+}
 
 .latestInfoSec h3 {
   font-size: 15px;
   font-weight: bold;
-} 
+}
 
 .img-wrap a img {
   width: 150%;
   align-self: flex-start;
   opacity: 100%;
   margin-left: 20px;
-} 
+}
 
 .img-wrap h4 {
   display: flex;
@@ -290,7 +290,7 @@ body {
   opacity: 100%;
   color: white;
   text-decoration: none;
-} 
+}
 
 .txt-wrap {
   display: flex;
@@ -299,7 +299,7 @@ body {
   justify-content: space-between;
   opacity: 100%;
   margin-left: 20px;
-} 
+}
 
 .txt-wrap .h2 {
   width: 100%;
@@ -308,7 +308,7 @@ body {
   font-weight: bold;
   color: whitesmoke;
   text-decoration: none;
-} 
+}
 
 .aside .h2 {
   width: 100%;
@@ -317,20 +317,20 @@ body {
   font-weight: bold;
   color: white;
   text-decoration: none;
-} 
+}
 
 .txt-wrap div {
   color: white;
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} 
+}
 
 .aside {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 49% 49%;
   row-gap: 10px;
-} 
+}
 
 .aside .videobox2 .txt-wrap,
 .aside .videobox3 .txt-wrap {
@@ -353,36 +353,36 @@ body {
   margin: 20px auto;
   grid-gap: 20px;
   grid-row-gap: 0;
-} 
+}
 
 .latestNews:first-child {
   grid-row-gap: 0;
-} 
+}
 
 .latestNews .latestnewsHd {
   grid-column: span 4;
   align-items: center;
-} 
+}
 
 .news {
   display: flex;
   flex-direction: column;
   width: 100%;
-} 
+}
 
 .latestnewsHd h3:hover {
   color: black;
-} 
+}
 
 .latestnewsHd img:hover {
   color: black;
-} 
+}
 
 .newsImg {
   width: 100%;
   height: 150px;
   margin: 10px 0;
-} 
+}
 
 .moreInfo {
   display: grid;
@@ -392,7 +392,7 @@ body {
   min-width: 900px;
   margin: 20px auto;
   grid-gap: 20px;
-} 
+}
 
 .imageInfo {
   width: 100%;
@@ -403,33 +403,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-} 
+}
 
 .popular h6 {
   font-size: 10px;
-} 
+}
 
 .latestInfo {
   display: flex;
   flex-direction: row;
   background-color: #fff4f2;
-} 
+}
 
 .latestInfoSec {
   margin: 10px 20px 20px 10px;
-} 
+}
 
 .infoListed li {
   padding: 5px 0;
   border-bottom: 1px solid grey;
-} 
+}
 
 .latest {
   display: block;
   width: 60%;
   min-width: 900px;
   margin: auto auto;
-} 
+}
 
 .latest-line {
   display: flex;
@@ -439,20 +439,20 @@ body {
   height: 50px;
   width: 100%;
   margin: 40px auto 0 auto;
-} 
+}
 
 .latest-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
   row-gap: 0;
-} 
+}
 
 .box {
   display: grid;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
-} 
+}
 
 .md-line {
   display: flex;
@@ -460,14 +460,14 @@ body {
   justify-content: space-around;
   border-bottom: 2px solid #fec6bd;
   text-decoration: none;
-} 
+}
 
 .top-box {
   display: flex;
   flex-direction: row;
   z-index: -1;
   text-decoration: none;
-} 
+}
 
 .top-box .top-cols .white {
   display: flex;
@@ -481,12 +481,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
-} 
+}
 
 .latestNews .latestnewsHd1 {
   grid-column: span 4;
   align-items: center;
-} 
+}
 
 .footer {
   position: absolute;
@@ -497,7 +497,7 @@ body {
   background-color: #131313;
   margin: 0;
   padding: 50px auto;
-} 
+}
 
 .footer-header {
   display: flex;
@@ -505,7 +505,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 50px auto;
-} 
+}
 
 .i-wrap {
   margin: 40px auto 0 auto;
