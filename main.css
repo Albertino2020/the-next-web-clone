@@ -139,6 +139,18 @@ body {
   text-decoration: none;
 }
 
+.news h3 a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.news span a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
 .popular a:hover {
   text-decoration: underline;
 }
@@ -244,11 +256,6 @@ body {
   color: black;
 }
 
-.news h3,
-.news span {
-  margin-bottom: 10px;
-}
-
 .popular span {
   font-size: 10px;
   color: gray;
@@ -280,6 +287,11 @@ body {
   text-decoration: none;
   color: white;
   align-self: center;
+}
+
+.news h3,
+.news span {
+  margin: 5px 0;
 }
 
 .latest-line a span {
@@ -333,6 +345,15 @@ body {
 
 .latestnewsHd1 span a:hover {
   color: #000;
+}
+
+.news h3 a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.news span a:hover {
+  color: black;
 }
 
 #hdLine3 a {
@@ -414,8 +435,31 @@ body {
   height: 50%;
 }
 
-.img-wrap img {
-  width: 50%;
+.latestnewsHd img {
+  height: 15px;
+  width: 15px;
+}
+
+.latestInfo img {
+  width: 80px;
+  height: auto;
+}
+
+.latestInfoSec h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.top-box img {
+  width: 50px;
+  height: 50px;
+  margin: auto 10px;
+  position: absolute;
+  align-self: center;
+}
+
+.img-wrap a img {
+  width: 150%;
   align-self: flex-start;
   opacity: 100%;
   margin-left: 20px;
@@ -430,14 +474,16 @@ body {
   margin-right: 10px;
   opacity: 100%;
   color: white;
+  text-decoration: none;
 }
 
 .txt-wrap {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
   justify-content: space-between;
   opacity: 100%;
+  margin-left: 20px;
 }
 
 .txt-wrap .h2 {
@@ -504,6 +550,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 }
 
 .latestNews .latestnewsHd {
@@ -524,9 +571,17 @@ body {
   font-weight: bold;
 }
 
-.latestnewsHd img {
+.latestnewsHd h3:hover {
+  color: black;
+}
+
+.latestnewsHd1 a img {
   height: 15px;
   width: 15px;
+}
+
+.latestnewsHd img:hover {
+  color: black;
 }
 
 .info .latestnewsHd {
@@ -579,16 +634,6 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #fff4f2;
-}
-
-.latestInfo img {
-  width: 80px;
-  height: auto;
-}
-
-.latestInfoSec h3 {
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .latestInfoSec {
@@ -649,14 +694,6 @@ body {
   text-decoration: none;
 }
 
-.top-box img {
-  width: 50px;
-  height: 50px;
-  margin: auto 10px;
-  position: absolute;
-  align-self: center;
-}
-
 .top-box .top-cols {
   position: relative;
   margin-left: 0;
@@ -711,11 +748,6 @@ body {
   font-size: 25px;
   color: red;
   font-weight: bold;
-}
-
-.latestnewsHd1 a img {
-  height: 15px;
-  width: 15px;
 }
 
 .latestnewsHd1 a p:hover,

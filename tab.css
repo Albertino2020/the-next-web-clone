@@ -201,6 +201,16 @@ body {
   text-decoration: none;
 }
 
+.news h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.news span a {
+  text-decoration: none;
+  color: grey;
+}
+
 .box a:hover {
   color: black;
   text-decoration: underline;
@@ -364,7 +374,16 @@ body {
 
 .news h3,
 .news span {
-  margin-bottom: 10px;
+  margin: 5px 0;
+}
+
+.news h3 a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.news span a:hover {
+  color: black;
 }
 
 .latest-line span {
@@ -628,14 +647,28 @@ body {
   grid-row-gap: 0;
 }
 
-.latestNews:first-child {
-  grid-row-gap: 0;
-}
-
 .latestnewsHd {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
+}
+
+.latestnewsHd h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
+
+.latestInfoSec h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.latestnewsHd h3:hover,
+.latestnewsImg:hover {
+  color: black;
 }
 
 .latestNews .latestnewsHd {
@@ -647,13 +680,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.latestnewsHd h3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  color: red;
-  font-weight: bold;
 }
 
 .latestnewsHd img {
@@ -797,11 +823,6 @@ body {
 .latestInfo img {
   width: 80px;
   height: auto;
-}
-
-.latestInfoSec h3 {
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .latestInfoSec {
