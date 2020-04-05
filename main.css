@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .txt-wrap a {
   color: white;
   text-decoration: none;
