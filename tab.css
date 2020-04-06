@@ -1,0 +1,663 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hd {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  background-color: #131313;
+  z-index: -2;
+}
+
+.footer-bottom-higher {
+  display: flex;
+  background-color: blacK;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-bottom-mob {
+  display: none;
+}
+
+.footer-bottom-higher p {
+  margin: 20px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: white;
+  align-self: center;
+}
+
+.hdTop {
+  padding-left: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#hdLine1 {
+  background-color: #131313;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#hdLine2 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 95% 5%;
+}
+
+.hdLine1-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.mob_menu {
+  display: none;
+}
+
+.hdLine1-left:hover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  background-color: inherit;
+}
+
+.hdLine1-left:hover .blank {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
+  display: block;
+  width: 100px;
+  height: 78px;
+  margin: 0;
+}
+
+.hdLine1-left li {
+  padding: 10px 0;
+  font-size: 0.7em;
+  font-weight: bolder;
+}
+
+.hdLine2-right a {
+  transform: rotate(90deg);
+}
+
+.bckg a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-line a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #fb4427;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.box a {
+  color: grey;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+}
+
+.popular a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.popular span,
+.popular a,
+.popular h6 {
+  color: white;
+}
+
+.latestnewsHd1 a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.span-wrap a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 20px;
+}
+
+.hdLine1-left li a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.hdLine1-right li a {
+  text-decoration: none;
+  color: rgb(173, 170, 170);
+  font-size: 0.8em;
+}
+
+.hdl1 li a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: rgb(173, 170, 170);
+}
+
+.buso1 li a {
+  text-decoration: none;
+  color: rgb(173, 170, 170);
+  background-color: inherit;
+  margin: 100px 15px;
+}
+
+.hdLine2-left li a,
+.hdLine2-right li a {
+  text-decoration: none;
+  color: rgb(143, 142, 142);
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 800;
+}
+
+.infoListed li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: gray;
+}
+
+.news h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.txt-wrap div,
+.txt-wrap span {
+  color: white;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.popular span {
+  font-size: 10px;
+  color: gray;
+}
+
+.news p span {
+  text-decoration: line-through;
+  font-size: 15px;
+  margin-right: 5px;
+  color: grey;
+}
+
+.lastBox {
+  display: none;
+}
+
+.box a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.hdLine1-left:hover li a,
+.hdLine1-right:hover li a {
+  text-decoration: none;
+  color: rgb(173, 170, 170);
+}
+
+.hdLine1-left li a:hover,
+.hdLine1-right li a:hover,
+.business_opt li a:hover {
+  color: white;
+}
+
+.hdl1 {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  list-style: none;
+  padding: 5px 10px;
+  background-color: inherit;
+}
+
+.hdl1 li {
+  padding: 0 5px;
+}
+
+.hdl1 li a:hover,
+.buso1 li a:hover {
+  color: white;
+}
+
+.buso1 {
+  padding: 0;
+  list-style: none;
+}
+
+.bus1 {
+  position: relative;
+  display: inline-block;
+}
+
+.bus1 .buso1 {
+  visibility: hidden;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  background-color: #000;
+}
+
+.bus1:hover .buso1 {
+  visibility: visible;
+}
+
+.buso1 li {
+  margin: 10px 10px;
+}
+
+.hdLine2-left {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  list-style: none;
+  padding: 15px 10px;
+}
+
+.business_li {
+  position: relative;
+  display: none;
+}
+
+.hdLine2-right {
+  justify-self: flex-end;
+  list-style: none;
+  background-color: inherit;
+  padding: 10px 10px;
+  align-items: center;
+  border-left: 1px solid rgb(44, 43, 43);
+  width: 50px;
+}
+
+.bckg {
+  background-color: white;
+  color: black;
+}
+
+#hdLine3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 30px;
+  background: #fede58;
+  z-index: -2;
+}
+
+.news h3,
+.news p {
+  margin: 5px 0;
+}
+
+.news h3 a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.footer-bottom div span {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: white;
+  align-content: center;
+}
+
+#hdLine3 a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-weight: 1000px;
+  align-self: center;
+}
+
+#hdLine3 a span {
+  padding: 0 10px;
+}
+
+.bellow-head {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 69% 30%;
+  column-gap: 5px;
+  width: 100%;
+  height: 500px;
+  margin: 100px auto 0 auto;
+  min-width: 765px;
+}
+
+.videobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Zoom-trash-hed-v2-796x419.jpg);
+  background-repeat: no-repeat;
+  opacity: 100%;
+  background-size: 100% 100%;
+}
+
+.img-wrap {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+}
+
+.hd div {
+  width: 100%;
+}
+
+.img-wrapper {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 78px;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(to bottom right, #d4299b, #ee3a04);
+}
+
+.img-wrapper:hover {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 78px;
+  justify-content: center;
+  align-content: center;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
+}
+
+.img-wrapper img {
+  width: 70px;
+  opacity: 100%;
+  height: 80px;
+  align-self: center;
+}
+
+.img-wrap h4 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-self: flex-start;
+  justify-content: flex-end;
+  margin-right: 10px;
+  opacity: 100%;
+  color: white;
+}
+
+.txt-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  opacity: 100%;
+}
+
+.txt-wrap .h2 {
+  width: 100%;
+  font-family: avalon, sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.aside .videobox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-796x417.jpg);
+  background-repeat: no-repeat;
+  opacity: 100%;
+  background-size: 100% 100%;
+}
+
+.aside .videobox3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/anxiety-working-from-home-516x270.png);
+  background-repeat: no-repeat;
+  opacity: 100%;
+  background-size: 100% 100%;
+}
+
+.aside .h2 {
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 49% 49%;
+  row-gap: 1%;
+}
+
+.latestNews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px repeat(3, 1fr);
+  width: 95%;
+  margin: 20px 10px;
+  grid-gap: 20px;
+  grid-row-gap: 0;
+}
+
+.latestInfoSec h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.latestnewsHd h3:hover,
+.latestnewsImg:hover {
+  color: black;
+}
+
+.latestNews .latestnewsHd {
+  grid-column: span 3;
+  align-items: center;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.newsImg {
+  width: 100%;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.latest {
+  display: block;
+  width: 97%;
+  margin: auto auto;
+  z-index: -1;
+}
+
+.latest-line {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 50px;
+  width: 100%;
+  margin: 40px auto 20px auto;
+}
+
+.latest-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 0;
+}
+
+.box {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.top-box {
+  display: flex;
+  flex-direction: row;
+  z-index: -1;
+}
+
+.top-box .top-cols .white {
+  display: flex;
+  flex-direction: column;
+  background: #ffe9e5;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.moreInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 95%;
+  margin: 20px 20px;
+  grid-gap: 10px;
+}
+
+.imageInfo {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/dimitri-karastelev-0hO1QgI1H8g-unsplash-368x276.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.popular h6 {
+  font-size: 10px;
+}
+
+.latestInfo {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff4f2;
+}
+
+.latestInfo img {
+  width: 80px;
+  height: auto;
+}
+
+.latestInfoSec {
+  margin: 10px 20px 20px 10px;
+}
+
+.infoListed li {
+  padding: 5px 0;
+  border-bottom: 1px solid grey;
+}
+
+.latestNews .latestnewsHd1 {
+  grid-column: span 3;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+  margin: 0;
+  padding: 50px auto;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 50px auto;
+}
+
+.md-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 2px solid #fec6bd;
+}
+
+.baseline {
+  background-color: #fffaf8;
+}
+
+.hdLine1-left:hover .blank img {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 80px;
+  height: 78px;
+  margin-left: 10px;
+}
