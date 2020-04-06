@@ -2,9 +2,9 @@
 
 > This project is our sixth project from the Microverse's Curriculum. It  consists of adding responsiveness to the clone of the Next Web Page, using HTML and CSS code.
 
-<img width="960" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/working-branch/images/screenshot_desktop_version.png">
-<img width="600" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/working-branch/images/screenshot_tab_version.png">
-<img width="300" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/working-branch/images/screenshot_phone_version.png">
+<img width="960" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/master/images/screenshot_desktop_version.png">
+<img width="600" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/master/images/screenshot_tab_version.png">
+<img width="300" alt="The Next Web" src="https://github.com/Albertino2020/the-next-web-clone/blob/master/images/screenshot_phone_version.png">
 
 # Description
 In this project, we have used HTML and CSS to set 3 resolutions of the page so that it appears well structured in Desktop, Tab and Mobile browsers. 
