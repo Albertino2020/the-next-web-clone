@@ -17,7 +17,7 @@ In this project, we have used HTML and CSS to set 3 resolutions of the page so t
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Albertino2020/the-next-web-clone/ddb0a232772e9a5909309d1d90a60b584ba8f5be/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/the-next-web-clone/d79068f7e8905e992e7c353d5e24f51241be4e45/index.html)
 
 
 ## Getting Started
